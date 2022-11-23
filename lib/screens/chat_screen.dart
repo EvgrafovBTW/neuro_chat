@@ -35,6 +35,12 @@ class _ChatScreenState extends State<ChatScreen> {
     super.initState();
   }
 
+  @override
+  void dispose() {
+    messageController.close();
+    super.dispose();
+  }
+
   updateMessage() {
     chatState.input = chatController.text;
   }

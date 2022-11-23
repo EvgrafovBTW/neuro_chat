@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:neuro_chat/screens/auth_slides/auth_tab_bar.dart';
-import 'package:neuro_chat/screens/auth_slides/register_slide.dart';
-import 'package:neuro_chat/screens/auth_slides/sign_in_slider.dart';
+import 'package:neuro_chat/screens/slides/auth_slides/auth_tab_bar.dart';
+import 'package:neuro_chat/screens/slides/auth_slides/register_slide.dart';
+import 'package:neuro_chat/screens/slides/auth_slides/sign_in_slider.dart';
 import 'package:neuro_chat/services/database_helper.dart';
 import 'package:provider/provider.dart';
 

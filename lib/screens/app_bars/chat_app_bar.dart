@@ -23,7 +23,7 @@ class ChatAppBar extends StatelessWidget with PreferredSizeWidget {
             PopupMenuItem(
               child: const Center(child: Text("Logout")),
               onTap: () {
-                Navigator.of(context).pushNamed('/фф');
+                Navigator.pop(context);
               },
             ),
             PopupMenuItem(

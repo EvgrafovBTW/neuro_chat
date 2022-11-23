@@ -23,6 +23,7 @@ class _AuthTabBarState extends State<AuthTabBar> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
+      // animationDuration: Duration(seconds: 1),
       length: 2,
       child: Scaffold(
         appBar: PreferredSize(
